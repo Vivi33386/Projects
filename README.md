@@ -1,1 +1,1 @@
-My programming projects in Js.
+My programming projects.
