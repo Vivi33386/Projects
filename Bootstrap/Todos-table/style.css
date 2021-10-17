@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: large;
+  font-weight: 500;
+}
+
+body {
+  background-color: rgb(128, 146, 140);
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: rgb(223, 64, 64);
+}
+
+.container {
+  cursor: pointer;
+}
+
+.responsive-table {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.add_hover:hover {
+  background-color: rgb(216, 176, 44);;
+  color: white;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: rgb(216, 176, 44);
+  color: white;
+}
