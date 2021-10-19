@@ -1,0 +1,55 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "color";
+@import "mixins";
+
+h1 {
+  text-align: center;
+  color: $primary-color;
+}
+
+.btn-lg {
+  background-color: $tertiary-color;
+  color: $four-color;
+}
+
+.table-headcolor {
+  background-color: $primary-color;
+  color: $four-color;
+}
+
+.table-color {
+  background-color: $secondary-color;
+  color: $four-color;
+}
+
+.btn-delete {
+  background-color: $six-color;
+  color: $four-color;
+  &:hover {
+    background-color: $eight-color;
+    color: $four-color;
+  }
+}
+
+.btn-edit {
+  background-color: $five-color;
+  color: $four-color;
+  &:hover {
+    background-color: $nine-color;
+    color: $four-color;
+  }
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.hover-row:hover {
+  background-color: $tertiary-color;
+  color: $four-color;
+}
+
+.btn-lg:hover {
+  @include setBackground($five-color);
+}

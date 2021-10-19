@@ -1,0 +1,3 @@
+@mixin setBackground($color) {
+  background-color: lighten($color, 5%);
+}
